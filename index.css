@@ -49,6 +49,8 @@ body{
 
 .main .sideBar a{
     color: black;
+    text-decoration: none;
+    
 }
 .main .sideBar a:hover{
     color: rgba(0, 0, 0, 0.363);
@@ -80,6 +82,7 @@ body{
 #name{
     font-weight: bold;
     color: black;
+    text-decoration: none;
 }
 #name:hover{
     text-decoration: underline;
@@ -96,6 +99,7 @@ body{
 }
 .section a{
     color: black;
+    text-decoration: none;
 }
 .section a:hover{
     color: rgba(0, 0, 0, 0.363);
