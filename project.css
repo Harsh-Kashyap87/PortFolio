@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    
+    min-height: 140vh;
+}
+/* Main CSS start here */
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/* Header CSS here */
+#ham{
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    /* width: 100vw; */
+    justify-content: space-between;
+}
+.main .sideBar{
+    /* background-color: yellowgreen; */
+    width: 125px;
+    height: 400px;
+    margin-top: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: fixed;
+    transition: 200ms;
+}
+
+.main .sideBarGo{
+    transform: translate(-500px, 0px);
+    position: absolute;
+    /* background-color: pink; */
+}
+
+.main .sideBar a{
+    color: black;
+}
+.main .sideBar a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.name div{
+    padding: 5px;
+}
+
+#name{
+    font-weight: bold;
+    color: black;
+}
+#name:hover{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+.section a{
+    color: black;
+}
+.section a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.section div{
+    padding: 9px;
+    cursor: pointer;
+}
+
+/* Head  CSS Start Here */
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+.head h1{
+    /* background-color: pink;
+    color: green; */
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(146, 21, 21); */
+    margin-top: 20px;
+    
+}
+
+.pro div{
+    width: 500px;
+    /* background-color: rgb(212, 108, 108); */
+    padding: 4px 0px;
+    margin: 4px 0px;
+    margin-left: 500px;
+}

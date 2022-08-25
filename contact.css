@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    
+    min-height: 140vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/* Header CSS here */
+
+#ham{
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    /* width: 100vw; */
+    justify-content: space-between;
+}
+.main .sideBar{
+    /* background-color: yellowgreen; */
+    width: 125px;
+    height: 400px;
+    margin-top: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: fixed;
+    transition: 200ms;
+}
+
+.main .sideBarGo{
+    transform: translate(-500px, 0px);
+    position: absolute;
+    /* background-color: pink; */
+}
+
+.main .sideBar a{
+    color: black;
+}
+.main .sideBar a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.name div{
+    padding: 5px;
+}
+
+#name{
+    font-weight: bold;
+    color: black;
+}
+#name:hover{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+.section a{
+    color: black;
+}
+.section a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.section div{
+    padding: 9px;
+    cursor: pointer;
+}
+
+/* Container CSS Start Here */
+
+.head{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.head h1{
+    /* color: green; */
+    /* background-color: gray; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* contact-form CSS Start Here */
+
+.container{
+    /* color: pink; */
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}
+.contact-form{
+    /* color: rgb(221, 6, 42); */
+    /* background-color: rgb(131, 6, 6); */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form input{
+    /* color: blue; */
+    font-size: 13px;
+
+    width: 500px;
+    margin: 5px;
+    padding: 10x;
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 30px;
+}
+.container form input{
+    padding: 10px;
+}
+.container form textarea{
+    padding: 10px;
+}
+
+.contact-form textarea{
+    /* color: blue; */
+   
+    font-size: 13px;
+    width: 500px;
+    margin: 5px;
+    padding: 5x;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.contact-form button{
+    /* color: blue; */
+    font-size: 13px;
+    width: 250px;
+    margin: 5px;
+    padding: 5x;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: gray;
+    height: 30px;
+    color: rgb(32, 26, 26);
+}
+.contact-form button:hover{
+    background-color: rgb(32, 26, 26);
+    color: gray;
+}
+
+
+
+/* Footer CSS here */
+
+.main .footer{
+    display: flex;
+    /* margin: 30px; */
+    margin-top: 50px;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .footer .phone{
+    /* background-color: red; */
+    margin-top: 20px;
+    
+}
+.main .footer .phone a{
+    /* background-color: red; */
+    margin-top: 20px;
+    color: black;
+    
+}
+.main .footer .phone a:hover{
+    /* background-color: red; */
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.363);
+    font-weight: bold;
+    
+}

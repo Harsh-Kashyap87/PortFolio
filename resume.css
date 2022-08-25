@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+
+    min-height: 140vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    display: block;
+    margin: auto;
+    width: 200px;
+    
+    font-size: 39px;
+}
+
+/* Header CSS here */
+
+#ham{
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    justify-content: space-between;
+}
+.main .sideBar{
+    /* background-color: yellowgreen; */
+    width: 125px;
+    height: 400px;
+    margin-top: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: fixed;
+    transition: 200ms;
+}
+
+.main .sideBarGo{
+    transform: translate(-500px, 0px);
+    position: absolute;
+    /* background-color: pink; */
+}
+
+.main .sideBar a{
+    color: black;
+}
+.main .sideBar a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.name div{
+    padding: 5px;
+}
+
+#name{
+    color: black;
+    font-weight: bold;
+}
+#name:hover{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+.section div{
+    padding: 12px;
+    cursor: pointer;
+}
+.section a{
+    color: black;
+}
+.section a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+
+/* Content CSS here */
+
+
+.box{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+
+.box .c{
+    display: flex;
+    justify-content: space-around;
+    /* width: 25%; */
+    margin-top: 30px;
+    align-items: center;
+}
+
+.box2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-right: 32px;
+    justify-content: space-evenly;
+
+}
+
+.box2 .c2{
+    display: flex;
+    justify-content: space-around;
+    /* width: 25%; */
+    margin-top: 30px;
+    align-items: center;
+}
+.box3{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-right: 32px;
+    justify-content: space-evenly;
+
+}
+
+.box3 .c3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#c7{
+    /* color: rgb(231, 2, 40); */
+    margin-left: -18px;
+}
+#c8{
+    /* color: red; */
+    margin-left: 62px;
+}
+#c9{
+    /* color: rgba(12, 56, 3, 0.87); */
+    margin-left: -21px;
+}
+
+
+.box4{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-right: 32px;
+    justify-content: space-evenly;
+
+}
+
+.box4 .c4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#c10{
+    /* color: rgb(231, 2, 40); */
+    margin-left: -1px;
+}
+#c11{
+    /* color: red; */
+    margin-left: 138px;
+}
+#c12{
+    /* color: rgba(12, 56, 3, 0.87); */
+    margin-left: -10px;
+}
+
+
+.hide{
+    color: transparent;
+    /* display: none; */
+}

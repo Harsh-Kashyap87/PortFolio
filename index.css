@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    
+    min-height: 140vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/* Header CSS here */
+#ham{
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    height: 80px;
+    /* width: 100vw; */
+    justify-content: space-between;
+}
+.main .sideBar{
+    /* background-color: yellowgreen; */
+    width: 125px;
+    height: 400px;
+    margin-top: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: fixed;
+    transition: 200ms;
+}
+
+.main .sideBarGo{
+    transform: translate(-500px, 0px);
+    position: absolute;
+    /* background-color: pink; */
+}
+
+.main .sideBar a{
+    color: black;
+}
+.main .sideBar a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+#sideBar div{
+    padding: 20px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.name div{
+    padding: 5px;
+}
+#ham{
+    width: 40px;
+}
+
+#cross{
+    width: 40px;
+}
+
+#name{
+    font-weight: bold;
+    color: black;
+}
+#name:hover{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+.section a{
+    color: black;
+}
+.section a:hover{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.section div{
+    padding: 7px;
+    cursor: pointer;
+}
+
+/* Content CSS here */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.content .img{
+    border-radius: 200px;
+    width: 416px;
+    height: 423px;
+    margin-top: 180px;
+
+}
+
+.content .mainContent{
+    height: 500px;
+    width: 288px;
+    margin: 0 10px;
+    /* background-color: rebeccapurple; */
+}
+.content .mainContent h1{
+    margin: 15px;
+    margin-top: 146px;
+    font-size: 65px;
+    /* background-color: rgb(30, 14, 46); */
+}
+.content .mainContent h5{
+    margin: 15px;
+    font-size: 30px;
+    /* background-color: rgb(31, 197, 155); */
+}
+
+.content .mainContent .text{
+    /* margin: 15px; */
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 4px;
+    /* background-color: rgb(54, 153, 51); */
+}
+
+.content .mainContent .btn2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 350px;
+}
+.content .mainContent .btn2 button{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.content #project{
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(29, 3, 18);
+    cursor: pointer;
+}
+.content #project a{
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(29, 3, 18);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content #resume{
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(21, 4, 51);
+    cursor: pointer;
+}
+.content #resume a{
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(21, 4, 51);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content #contact{
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(5, 32, 34);
+    cursor: pointer;
+    
+}
+.content #contact a{
+    /* font-weight: bold; */
+    text-decoration: none;
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: rgb(5, 32, 34);
+    cursor: pointer;
+}
+
+
+
+
+
+/* Divider */
+.main .divider{
+    margin-top: 300px;
+}
+
+/* Footer CSS here */
+
+.main .footer{
+    display: flex;
+    /* margin: 30px; */
+    margin-top: 50px;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .footer .phone{
+    /* background-color: red; */
+    margin-top: 20px;
+    
+}
+.main .footer .phone a{
+    /* background-color: red; */
+    margin-top: 20px;
+    color: black;
+    
+}
+.main .footer .phone a:hover{
+    /* background-color: red; */
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.363);
+    font-weight: bold;
+    
+}
